@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 - start the server `rails s`
 
-- Enjoy interacting with the app.
+- Enjoy interacting with the app, stay safe out there!
 
 ## Author
 
