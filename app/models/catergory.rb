@@ -1,4 +1,4 @@
-class Category < ApplicationRecord
+class Catergory < ApplicationRecord
   belongs_to :user
   has_and_belongs_to_many :expenses, dependent: :destroy
 

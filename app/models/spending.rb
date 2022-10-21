@@ -5,4 +5,3 @@ class Spending < ApplicationRecord
   validates :name, :amount, presence: true, length: { maximum: 255 }
   validates :amount, numericality: { greater_than: 0 }
 end
-    
