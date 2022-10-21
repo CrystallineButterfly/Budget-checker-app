@@ -13,7 +13,7 @@ class SpendingsController < ApplicationController
     if @spending.save
       flash[:notice] = 'Spending created successfully'
       @catergory_spending = @spending.catergory_spendings.create(catergory_id: params[:catergory_id],
-                                                         spending_id: @spending.id)
+                                                                 spending_id: @spending.id)
       redirect_to catergories_path
     else
       render 'new'
