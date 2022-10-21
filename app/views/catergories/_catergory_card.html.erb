@@ -12,6 +12,6 @@
       <%= catergory.spendings.sum(:amount) %>
     </p>
     <p class="card-text opacity-50"><%= time_ago_in_words(catergory[:created_at]) %></p>
-    <%= button_to "SELECT", catergory_path(group), method: :get, class: "btn btn-success" %>
+    <%= button_to "SELECT", catergory_path(catergory), method: :get, class: "btn btn-success" %>
   </div>
 </div>

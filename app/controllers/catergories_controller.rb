@@ -24,7 +24,7 @@ class CatergoriesController < ApplicationController
     @catergory = Catergory.new(name: params[:name], icon: params[:icon], user_id: @user.id)
     if @catergory.save
       flash[:notice] = 'Successfully created group.'
-      redirect_to groups_path
+      redirect_to catergories_path
     else
       render action: 'new'
     end

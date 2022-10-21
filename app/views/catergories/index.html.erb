@@ -1,9 +1,9 @@
 <div class="container d-flex flex-column justify-content-center align-items-center">
-  <% @categories.each do |catergory| %>
+  <% @catergories.each do |catergory| %>
     <%= render partial: 'catergories/catergory_card', locals: { catergory: catergory } %>
   <% end %>
   <% if @catergories.empty? %>
-  <h1>There are no categories to show</h1>
+  <h1>There are no catergories to show</h1>
   <% end %>
   <%= link_to "Add New Category", new_catergory_path, class: "btn btn-success mb-5" %>
 
