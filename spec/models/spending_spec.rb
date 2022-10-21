@@ -15,7 +15,7 @@ RSpec.describe Spending, type: :model do
 
     @spending.save
 
-    @catergory.spending << @spending
+    @catergory.spendings << @spending
 
     @user.catergories << @catergory
   end

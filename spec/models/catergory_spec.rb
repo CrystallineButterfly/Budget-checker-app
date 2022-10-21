@@ -24,7 +24,7 @@ RSpec.describe Catergory, type: :model do
   end
 
   it 'should have spendings' do
-    @catergories.spendings
+    @catergory.spendings
     expect(@catergory.spendings).to eq([@spending])
   end
 end
