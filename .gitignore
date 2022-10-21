@@ -37,3 +37,5 @@ app/assets/builds
 log/development.log
 tmp/
 tmp/cache/
+.package-lock.json
+yarn-error.log
