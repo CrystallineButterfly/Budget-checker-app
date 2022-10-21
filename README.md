@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ## Setup
 
 - Clone the project. 
-- navigate to the folder `cd Budget-App`
+- navigate to the folder `cd Budget-checker-app`
 - Install required gems `bundle install`
 
 ## Usage
